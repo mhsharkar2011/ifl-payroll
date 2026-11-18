@@ -1,0 +1,89 @@
+# ========================
+# Laravel Core
+# ========================
+/node_modules
+/public/build
+/public/hot
+# /public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# ========================
+# Laravel Storage
+# ========================
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+!/storage/app/backups/
+!/storage/app/backups/.gitignore
+
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# ========================
+# Database Backups
+# ========================
+#/storage/app/backups/*
+!/storage/app/backups/.gitignore
+#!/storage/app/backups/*.sql
+
+# Backup files anywhere
+#*.sql
+#*.dump
+#*.sqlite.bak
+
+# Backup archives
+*.zip
+*.tar.gz
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ========================
+# Environment
+# ========================
+.env.local
+.env.*.local
+
+# ========================
+# IDE
+# ========================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Temporary Files
+# ========================
+*.tmp
+*.temp
+*.log
